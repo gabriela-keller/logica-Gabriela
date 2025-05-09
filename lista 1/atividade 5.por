@@ -1,27 +1,15 @@
 programa
-{    inteiro n1, n2
+{    inteiro a, dolar 
 	
 	funcao inicio()
 	{
-		escreva("digite seu primeiro numero ")
-		leia (n1)
+		escreva("quantos reais voce tem")
+		leia (a)
 
-		escreva (" digite seu segundo numero ")
-		leia(n2)
+		dolar = a/3.45
 
-		se (n1>n2)
-		{
-			escreva(" o primeiro numero e maior que o segundo numero ")
-		}
-		senao se (n2>n1)
-		 {
-		 	 escreva (" o segundo numero e maior que o primeiro ")
-		 }
-		 senao {
-		 	escreva (" os dois numeros sao iguais ") 
-		 }
-		     
-	
+		escreva ("voce consegue compra essa quantidade de dolar ", dolar)
+
 		
 	}
 }
@@ -30,7 +18,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 416; 
+ * @POSICAO-CURSOR = 201; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

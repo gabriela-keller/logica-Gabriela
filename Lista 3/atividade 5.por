@@ -1,9 +1,9 @@
 programa
-{   real casa, salario, anos, mes,salarionovo
-	 
+{   real casa, salario, anos, mes,salarionovo
+	 
 	funcao inicio()
 	{
-		escreva("por favor informe o valor da casa") 
+		escreva("por favor informe o valor da casa") 
 		leia ( casa)
 
 		escreva(" por favor informe seu salario")

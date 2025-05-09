@@ -1,19 +1,23 @@
 programa
-{ inteiro a 
+{    real altura, peso, imc
 	
 	funcao inicio()
 	{
-		escreva("digite um numero")
-		leia(a)
+		escreva("informe sua altura")
+		leia( altura)
 
-		se ( a % 2 == 0)
-{     escreva(" é par")
-	
-}
+		escreva (" informe seu peso")
+		leia ( peso)
 
-      senao 
-       escreva ("  é impar")
-
+		imc= peso / (altura * altura)
+		
+		se ( imc< 18.5)
+		{
+		escreva (" voce esta abaixo do peso")
+		}
+		senao se ( ,0
+		
+		
 		
 	}
 }
@@ -22,7 +26,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 172; 
+ * @POSICAO-CURSOR = 278; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

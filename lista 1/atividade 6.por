@@ -1,18 +1,17 @@
 programa
-{
-	inteiro ano, idade
+{    inteiro nac, atual, ida
 	
 	funcao inicio()
-	{ 
-	escreva(" o ano que voce nasceu")
-	leia (ano)
-	
-	se ( 2025-ano >16)
 	{
+		escreva("seu ano de nascimento:")
+		leia (nac)
 		
-	} 
-	 senao escreva ("voce nao tem idade ainda para votar")
-	
+		escreva("ano que estamos")
+		leia (atual)
+		
+		ida = atual - nac
+
+		escreva(" sua idade e: ", ida)
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -20,7 +19,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 127; 
+ * @POSICAO-CURSOR = 217; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
